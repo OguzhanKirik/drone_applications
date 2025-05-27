@@ -14,6 +14,9 @@ If you haven't already, set up your Python environment and get all the relevant 
 git clone https://github.com/udacity/FCND-Backyard-Flyer
 ```
 
+export PYTHONPATH=/Users/oguz/Desktop/workspace_py/motion_planning/FCND-Motion-Planning/udacidrone:$PYTHONPATH
+
+
 ## Task
 The required task is to command the drone to fly a 10 meter box at a 3 meter altitude. You'll fly this path in two ways: first using manual control and then under autonomous control.
 
