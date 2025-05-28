@@ -1,0 +1,20 @@
+name: fcnd
+channels:
+    - conda-forge
+dependencies:
+    - python
+    - matplotlib
+    - jupyter
+    - future
+    - lxml
+    - networkx
+    - scikit-image
+    - shapely
+    - scikit-learn
+    - pip:
+        - git+https://github.com/udacity/udacidrone.git
+        - visdom
+        - bresenham
+        - msgpack
+        
+
