@@ -71,7 +71,12 @@ For those of you interested in doing manual builds using `cmake`, we have provid
 
 **NOTE: This has only been tested on Ubuntu 16.04, however, these instructions should work for most linux versions.  Also note that these instructions assume knowledge of `cmake` and the required `cmake` dependencies are installed.**
 
-1. Create a new directory for the build files:
+1.Download the repository
+```sh
+git clone https://github.com/udacity/FCND-Controls-CPP.git
+```
+
+2. Create a new directory for the build files:
 
 ```sh
 cd FCND-Controls-CPP
